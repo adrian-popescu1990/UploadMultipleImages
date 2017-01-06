@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload Multiple Images</title>
+
+	<style type="text/css">
+
+		#new-container {
+			width: 500px;
+			height: 500px;
+			border: 1px solid #ccc;
+			margin: 100px;
+		}
+
+		.hidden {
+			display: none;
+		}
+
+	</style>
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/upload_multitple_images.js"></script>
+
+	<script type="text/javascript">
+
+		$(window).on("load", function() {
+
+			uploadMultitpleImagesComponent = new uploadMultitpleImagesComponent('new-container');
+
+		});
+
+	</script>
+</head>
+<body>
+
+	<div id="new-container"></div>
+
+</body>
+</html>
